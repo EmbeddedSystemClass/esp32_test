@@ -1,0 +1,16 @@
+menu "Demo Configuration"
+
+config WIFI_SSID
+    string "WiFi SSID"
+    default "syxd"
+    help
+        SSID(network name) to connect to.
+
+config WIFI_PASSWORD
+    string "WiFI Password"
+    default "siyuexiongdi"
+    help 
+        WiFi password(WPA or WPA2) to use.
+        can be left blank if the network has no security set.
+
+endmenu
